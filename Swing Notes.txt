@@ -1,0 +1,22 @@
+JFrame.EXIT_ON_CLOSE		->	3
+JFrame.DISPOSE_ON_CLOSE		->	2 (Not close the JVM(If there are any objects))
+JFrame.HIDE_ON_CLOSE		->	1
+JFrame.DO_NOTHING_ON_CLOSE	->	0
+
+
+
+
+
+BORDER LAYOUT
+ ___________________________
+|                           |
+|            NORTH          |
+|___________________________|
+|         |        |        |
+|         |        |        |
+|   WEST  | CENTER |  EAST  |
+|         |        |        |
+|_________|________|________|
+|                           |
+|            SOUTH          |
+|___________________________|
