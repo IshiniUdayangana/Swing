@@ -20,6 +20,8 @@ class Calculator extends JFrame{
 	private JButton btnDot;
 	private JButton btnAssign;
 	
+	private JTextField textField;
+	
 	Calculator(){
 		setSize(400,400);
 		setTitle("Calculator");
@@ -107,7 +109,7 @@ class CalculatorArray extends JFrame{
 		setTitle("Calculator 2");
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		
-		setLayout(new FlowLayout(1,4));
+		setLayout(new FlowLayout());
 		setLayout(new GridLayout(4,4));
 		
 		buttonArray = new JButton[16];
